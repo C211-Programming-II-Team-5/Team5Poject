@@ -58,7 +58,6 @@ public class Questions {
         }
 
         Integer largest = 0;
-
         System.out.println(calcMap);
 
         for (Integer i : calcMap.keySet()) {
@@ -69,7 +68,6 @@ public class Questions {
         }
 
         System.out.println(largest);
-
         switch(largest) {
             case 1:
                 return "congratulations " + name + " your spirit Pokemon is " + pokeMap.get(1) + "!";
@@ -81,9 +79,7 @@ public class Questions {
                 return "congratulations " + name + " your spirit Pokemon is " + pokeMap.get(4) + "!";
             case 5:
                 return "congratulations " + name + " your spirit Pokemon is " + pokeMap.get(5) + "!";
-
         }
-
         return "";
     }
 }
