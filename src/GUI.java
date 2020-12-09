@@ -4,13 +4,13 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class GUI implements ActionListener {
-    JButton[] buttons = new JButton[7];
-    public GUI() {
-        JFrame frame = new JFrame();
-        String message = "Test Question";
+    private JButton[] buttons = new JButton[7];
+    private JFrame frame = new JFrame();
+    private String message = "Test Question";
+    private JLabel label = new JLabel("What is your favorite pokemon", JLabel.CENTER);
+    private JPanel panel = new JPanel();
 
-        JLabel label = new JLabel("What is your favorite pokemon", JLabel.CENTER);
-        JPanel panel = new JPanel();
+    public GUI() {
 
         panel.setBorder(BorderFactory.createEmptyBorder(30,30,10,30));
         panel.setLayout(new GridLayout(0, 1));
@@ -32,6 +32,16 @@ public class GUI implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        
+        if (e.getSource() == buttons[0]) {
+            System.out.println("Test");
+        } else if (e.getSource() == buttons[1]) {
+            System.out.println("Test2");
+        } else if (e.getSource() == buttons[2]) {
+
+        } else if (e.getSource() == buttons[3]) {
+
+        } else if (e.getSource() == buttons[4]) {
+
+        }
     }
 }
