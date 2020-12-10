@@ -1,30 +1,8 @@
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.Scanner;
+
 
 public class Questions {
-
-    public static Integer question(String message) {
-        System.out.println(message);
-
-        Scanner scan = new Scanner(System.in);
-        Integer answer = scan.nextInt();
-        switch (answer) {
-            case 1:
-                return 1;
-            case 2:
-                return 2;
-            case 3:
-                return 3;
-            case 4:
-                return 4;
-            case 5:
-                return 5;
-            default:
-                return 0;
-        }
-    }
 
     public static int calculate(ArrayList<Integer> list) {
         //Integer one = 0, two = 0, three = 0, four = 0, five = 0;
@@ -68,21 +46,6 @@ public class Questions {
         }
         System.out.println(largest);
         return largest;
-
-//
-//        switch(largest) {
-//            case 1:
-//                return 1;
-//            case 2:
-//                return 2;
-//            case 3:
-//                return 3;
-//            case 4:
-//                return 4;
-//            case 5:
-//                return 5;
-//        }
-//        return 0;
     }
 
 }
