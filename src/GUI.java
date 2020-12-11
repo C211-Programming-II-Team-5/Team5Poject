@@ -82,7 +82,7 @@ public class GUI implements ActionListener {
                 buttons[4].setText("Strongly Disagree");
                 break;
             case 2:
-                label.setText("what is your favorite season?");
+                label.setText("What is your favorite season?");
                 buttons[0].setText("Spring");
                 buttons[1].setText("Summer");
                 buttons[2].setText("Autumn");
@@ -144,6 +144,86 @@ public class GUI implements ActionListener {
                 buttons[2].setText("Find the key");
                 buttons[3].setText("Saw around the lock");
                 buttons[4].setText("Walk away, the box is locked for a reason");
+                break;
+            case 10:
+                label.setText("What is your favorite color?");
+                buttons[0].setText("Blue");
+                buttons[1].setText("Orange");
+                buttons[2].setText("Green");
+                buttons[3].setText("Yellow");
+                buttons[4].setText("Brown");
+                break;
+            case 11:
+                label.setText("You're lost in a forest and only get one of these items. Which do you choose?");
+                buttons[0].setText("Flashlight");
+                buttons[1].setText("Axe");
+                buttons[2].setText("Lighter");
+                buttons[3].setText("Gun");
+                buttons[4].setText("Bow");
+                break;
+            case 12:
+                label.setText("What is your hat choice?");
+                buttons[0].setText("Fedora");
+                buttons[1].setText("Western hat");
+                buttons[2].setText("Top hat");
+                buttons[3].setText("Baseball cap");
+                buttons[4].setText("Wig");
+                break;
+            case 13:
+                label.setText("You're at a sign that says DO NOT ENTER. What do you do?");
+                buttons[0].setText("Turn around and find somewhere else to go");
+                buttons[1].setText("Say screw it and enter anyways");
+                buttons[2].setText("Try to find another way to enter");
+                buttons[3].setText("Leave the area immediately");
+                buttons[4].setText("Cross out the word NOT and enter");
+                break;
+            case 14:
+                label.setText("Favorite number?");
+                buttons[0].setText("7");
+                buttons[1].setText("42, the answer to everything");
+                buttons[2].setText("01101100 01101111 01101100");
+                buttons[3].setText("0");
+                buttons[4].setText("Don't have one");
+                break;
+            case 15:
+                label.setText("You have one snack to eat for the rest of your life. What do you go with?");
+                buttons[0].setText("Chips");
+                buttons[1].setText("Cookies");
+                buttons[2].setText("Candy");
+                buttons[3].setText("Fruit");
+                buttons[4].setText("Pastries");
+                break;
+            case 16:
+                label.setText("What type of weather do you prefer the most?");
+                buttons[0].setText("Rainy");
+                buttons[1].setText("Sunny");
+                buttons[2].setText("Cloudy");
+                buttons[3].setText("Windy");
+                buttons[4].setText("Snowy");
+                break;
+             case 17:
+                label.setText("You're in a battle where you feel like you have an advantage over your opponent. How hard do you try to win?");
+                buttons[0].setText("Barely try, too ez");
+                buttons[1].setText("Give in a little effort");
+                buttons[2].setText("Play moderately");
+                buttons[3].setText("Give forth a lot of effort");
+                buttons[4].setText("Try my best because I want to crush them!");
+                break;
+            case 18:
+                label.setText("Preferred method of transportation?");
+                buttons[0].setText("Walking");
+                buttons[1].setText("Running");
+                buttons[2].setText("Canoe");
+                buttons[3].setText("Cycling");
+                buttons[4].setText("Car");
+                break;
+            case 19:
+                label.setText("Is it easy for me to make new friends?");
+                buttons[0].setText("Strongly Agree");
+                buttons[1].setText("Agree");
+                buttons[2].setText("Neutral");
+                buttons[3].setText("Disagree");
+                buttons[4].setText("Strongly Disagree");
                 break;
             default:
                 for (JButton btn : buttons) {
